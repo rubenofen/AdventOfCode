@@ -2,12 +2,12 @@
 
 Resolution of https://adventofcode.com/2018 puzzles using Ramda which is a library of functions designed to make functional programming in JavaScript easy and powerful without making it any less like JavaScript
 
-##EX0 -- Day 1 part 1
+## EX0 -- Day 1 part 1
 http://localhost:3000/ex0
 This solucion seems to be ok
 
 
-##EX1 -- Day 1 part 2
+## EX1 -- Day 1 part 2
 http://localhost:3000/ex1
 This solution has a low performance, because has an accumulator and tries to find the frecuency inside the acumulator. It needs 139 iterations to find the solution.
 Furthermore includesInAcc function is not pure and it is changing a "global" boolean variable to be readed by the main funcion to decide if it have to be iterated again or not.
