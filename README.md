@@ -10,9 +10,9 @@ This solucion seems to be ok
 ## EX1 -- Day 1 part 2
 http://localhost:3000/ex1
 This solution has a low performance, because has an accumulator and tries to find the frecuency inside the acumulator. It needs 139 iterations to find the solution.
-Furthermore *includesInAcc* function is not pure and it is changing a "global" boolean variable to be readed by the main funcion to decide if it have to be iterated again or not.
+Furthermore **includesInAcc** function is not pure and it is changing a "global" boolean variable to be readed by the main funcion to decide if it have to be iterated again or not.
 
-To try to find a better solution, in the future will be developed something like that:
+To try to find a better solution, in the future will be developed something like that: Resoruce https://www.reddit.com/r/adventofcode/comments/a20646/2018_day_1_solutions/
 
 I was going through the solutions posted in this thread and noticed that a lot of solutions would carry out multiple passes of the frequency changes, and would make use of a set to record which frequencies had been seen before. For the purposes of the puzzle inputs supplied, this worked fine because the range of frequencies was fairly small. However, if the range of frequencies is very large, then it performs poorly. To prove that this is the case, try running your solution on the following puzzle input:
 
