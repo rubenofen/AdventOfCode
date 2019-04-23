@@ -10,7 +10,7 @@ This solucion seems to be ok
 ## EX1 -- Day 1 part 2
 http://localhost:3000/ex1
 This solution has a low performance, because has an accumulator and tries to find the frecuency inside the acumulator. It needs 139 iterations to find the solution.
-Furthermore includesInAcc function is not pure and it is changing a "global" boolean variable to be readed by the main funcion to decide if it have to be iterated again or not.
+Furthermore *includesInAcc* function is not pure and it is changing a "global" boolean variable to be readed by the main funcion to decide if it have to be iterated again or not.
 
 To try to find a better solution, in the future will be developed something like that:
 
